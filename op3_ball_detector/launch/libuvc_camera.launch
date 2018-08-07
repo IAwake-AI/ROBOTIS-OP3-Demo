@@ -4,20 +4,24 @@
   <!-- UVC camera -->
   <node pkg="libuvc_camera" type="camera_node" name="uvc_camera_node" output="screen">
     <param name="device" type="string" value="/dev/video0" />
+
+    <param name="fps" type="int" value="15" />
+
+    <param name="gain" type="int" value="127" />
+    <param name="exposure" value="127" />
+    <param name="brightness" value="127" />
+
+    <!--    
     <param name="width" type="int" value="1920" />
     <param name="height" type="int" value="1080" />
-    <param name="fps" type="int" value="30" />
+    <param name="exposure_absolute" value="1000" />
     <param name="auto_gain" value="True" />
     <param name="auto_exposure" type="bool" value="True" />
     <param name="auto_white_balance" type="bool" value="True" /> 
 
-    <!--    <param name="gain" value="255" />
-    <param name="gain" type="int" value="120" />
-    <param name="exposure" value="100" />
-    <param name="exposure_absolute" value="1000" />
-    <param name="brightness" value="127" />
     <param name="auto_white_balance" type="bool" value="False" />
-    <param name="white_balance_temperature" value="2800" /> -->
+    <param name="white_balance_temperature" value="2800" /> 
+    -->
     
     <!-- <param name="auto_exposure" type="bool" value="False" /> -->
     <!-- <param name="exposure_absolute" value="1000" /> -->
@@ -26,8 +30,6 @@
     <!-- <param name="white_balance_temperature" value="2800" /> -->       
   </node>    
 
-  
-  <!-- ball detector -->
-  <include file="$(find op3_ball_detector)/launch/ball_detector.launch" />
+
 </launch>
 
