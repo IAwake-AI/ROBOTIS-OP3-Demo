@@ -27,14 +27,8 @@ class OPDemo
  public:
   enum Motion_Index
   {
-    InitPose = 1,
-    WalkingReady = 9,
-    GetUpFront = 122,
-    GetUpBack = 123,
-    RightKick = 121,
-    LeftKick = 120,
-    Ceremony = 27,
-    ForGrass = 20,
+    InitPose = 5,
+    KneelPose = 7
   };
 
   OPDemo()

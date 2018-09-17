@@ -1,22 +1,11 @@
 # combination action page number and mp3 file path
 action_and_sound: 
-  4 : "/media/SOFTWARE/OP3/src/ROBOTIS-OP3-Demo/op3_demo/data/mp3/Thank you.mp3"
-  41: "/media/SOFTWARE/OP3/src/ROBOTIS-OP3-Demo/op3_demo/data/mp3/Introduction.mp3"
-  24: "/media/SOFTWARE/OP3/src/ROBOTIS-OP3-Demo/op3_demo/data/mp3/Wow.mp3"
-  23: "/media/SOFTWARE/OP3/src/ROBOTIS-OP3-Demo/op3_demo/data/mp3/Yes go.mp3"
-  15: "/media/SOFTWARE/OP3/src/ROBOTIS-OP3-Demo/op3_demo/data/mp3/Sit down.mp3"
-  1 : "/media/SOFTWARE/OP3/src/ROBOTIS-OP3-Demo/op3_demo/data/mp3/Stand up.mp3"
-  54: "/media/SOFTWARE/OP3/src/ROBOTIS-OP3-Demo/op3_demo/data/mp3/Clap please.mp3"
-  27: "/media/SOFTWARE/OP3/src/ROBOTIS-OP3-Demo/op3_demo/data/mp3/Oops.mp3"
-  38: "/media/SOFTWARE/OP3/src/ROBOTIS-OP3-Demo/op3_demo/data/mp3/Bye bye.mp3"
-  110 : ""
-  111 : "/media/SOFTWARE/OP3/src/ROBOTIS-OP3-Demo/op3_demo/data/mp3/Intro01.mp3"
-  115 : "/media/SOFTWARE/OP3/src/ROBOTIS-OP3-Demo/op3_demo/data/mp3/Intro02.mp3"
-  118 : "/media/SOFTWARE/OP3/src/ROBOTIS-OP3-Demo/op3_demo/data/mp3/Intro03.mp3"
+  5 : "/home/pdeegan/SOFTWARE/OP3/src/ROBOTIS-OP3/ROBOTIS-OP3-Demo/op3_demo/data/mp3/init.mp3"
+  7 : "/home/pdeegan/SOFTWARE/OP3/src/ROBOTIS-OP3/ROBOTIS-OP3-Demo/op3_demo/data/mp3/kneel.mp3"
+
 
 # play list
-prev_default: [4]
-default: [4]
+default: [5]
 
 # example of play list
-#certification: [101]
+certificatino: [5]
